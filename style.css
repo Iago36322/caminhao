@@ -1,0 +1,75 @@
+/* css/style.css */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #E7E7E7;
+}
+
+.bloco_central {
+ 
+  width: 350px;  /* Ajuste a largura conforme necessário */
+  height: 500px; /* Ajuste a altura conforme necessário */
+  background-color: #bdbebd
+  ; /* Cor de fundo sólida */
+  border-radius: 10px; /* Raio de borda para arredondar as bordas */
+  border: 2px  #000000;
+  box-shadow: 2px 2px 10px #888888
+}
+.bloco_info {
+  position: relative;
+  width: 50px;  /* Ajuste a largura conforme necessário */
+  height: 50px; /* Ajuste a altura conforme necessário */
+  background-color: #ffffff; /* Cor de fundo sólida */
+  border-radius: 10px; /* Raio de borda para arredondar as bordas */
+  border: 2px  #000000;
+}
+
+.botao_SD {
+  width: 162px;
+  height: 50px;
+  /*background-color: #FBC713;  Cor de fundo padrão */
+  background-color: #4CAF50; /* Cor de fundo padrão */
+  color: #fff; /* Cor do texto dos botões */
+  border: none; /* Sem borda nos botões */
+  border-radius: 5px; /* Borda arredondada nos botões */
+  cursor: pointer; /* Indicador de cursor ao passar sobre os botões */
+  position: relative; /* Define o método de posicionamento como relativo */
+  left: 13px;
+  top: 380px;
+  font-size: 16px;
+}
+
+.botao_Select {
+  width: 330px;
+  height: 50px;
+  /*background-color: #FBC713;  Cor de fundo padrão */
+  background-color: #4CAF50; /* Cor de fundo padrão */
+  color: #fff; /* Cor do texto dos botões */
+  border: none; /* Sem borda nos botões */
+  border-radius: 5px; /* Borda arredondada nos botões */
+  cursor: pointer; /* Indicador de cursor ao passar sobre os botões */
+  position: relative; /* Define o método de posicionamento como relativo */
+  left: 10px;
+  top: 390px;
+  font-size: 16px;
+}
+
+/*
+.botao_Select:active {
+  background-color: #f90202
+}
+*/
+
+.barra-superior {
+  background-color: #001F3F;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0px 0px 10px 1px #888888
+}
+
